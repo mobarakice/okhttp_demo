@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lotd.custome_view.TypefaceTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        xmlns:geekui="http://schemas.android.com/apk/res-auto"
+                                        android:gravity="center_vertical"
+                                        android:paddingLeft="16dp"
+                                        android:paddingBottom="5dp"
+                                        android:paddingTop="5dp"
+                                        android:singleLine="true"
+                                        android:background="@color/white"
+                                        android:textColor="@color/message_content_text_color"
+                                        android:textSize="13sp"
+                                        android:id="@+id/section_text"/>

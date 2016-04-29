@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:geekui="http://schemas.android.com/apk/res-auto"
+                xmlns:app="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!-- <com.rey.material.widget.FloatingActionButton
+         android:id="@+id/fab_image"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginBottom="20dp"
+         android:layout_marginRight="20dp"
+         android:clickable="true"
+         android:onClick="onCameraFabClick"
+         app:fab_iconSrc="@drawable/camera"
+         app:v_styleId="@array/fab_icon" />
+ -->
+
+
+
+
+    <!-- <com.rey.material.widget.ProgressView
+         android:id="@+id/progress_view"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_centerInParent="true"
+         android:layout_gravity="center"
+         app:v_styleId="@array/pv_circular" />-->
+
+
+<!--    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/timeline_fab_button_shadow"
+        android:clickable="true"
+        android:onClick="onCameraFabClick"
+        android:src="@drawable/camera_white"
+        app:backgroundTint ="@color/fab_color"
+        app:fab_colorPressed="@color/marun"
+        app:rippleColor="@color/marun"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fab_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera_white"
+        app:backgroundTint="@color/fab_color"
+        android:clickable="true"
+         app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="16dp"/>
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true" />
+
+
+</RelativeLayout>
+
+    
